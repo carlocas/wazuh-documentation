@@ -2563,6 +2563,18 @@ div.highlight pre {
   display: none;
 }
 
+#url_redirecting {
+  z-index: 9999999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 200px;
+  text-align: center;
+  background-color: #fff;
+}
+
 @media (min-width:576px){
 
   #capabilities .right .topic p:not(.topic-title) {
@@ -3171,7 +3183,6 @@ div.highlight pre {
 
       .central-page-area {
 				flex-wrap: nowrap;
-				position: relative;
 				z-index: 1;
 			}
 
